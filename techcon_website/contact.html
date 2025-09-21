@@ -1,66 +1,126 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Schedule for TechCon 2024</title>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title>Contact Us - TechCon 2024</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background: #0056b3;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
 
-    <body>
-        <header>
-            <h1>Schedule for TechCon 2024</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="register.html">Register</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+<header>
+    <h1>Contact Us</h1>
+</header>
 
-        <main>
-            <div>
-                <table>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+    </ul>
+</nav>
 
-                    <caption>
-                        Detailed Schedule of Events for TechCon 2024
-                    </caption>
+<main>
+    <h2>Contact Information</h2>
+    <p>Email Address: <a href="mailto:email@example.com">email@example.com</a></p>
 
-                        <tr>
-                            <th scope="col">Time</th>
-                            <th scope="col">Session</th>
-                            <th scope="col">Speaker</th>
-                        </tr>
+    <h3>Follow Us</h3>
+    <ul>
+        <li><a href="https://twitter.com/TechCon" target="_blank">Twitter</a></li>
+        <li><a href="https://facebook.com/TechCon" target="_blank">Facebook</a></li>
+        <li><a href="https://instagram.com/TechCon" target="_blank">Instagram</a></li>
+    </ul>
 
-                        <tr>
-                            <td>09:00 – 09:30</td>
-                            <td>Morning Announcements</td>
-                            <td>Conference Host</td>
-                        </tr>
-                        <tr>
-                            <td>09:15 – 10:15</td>
-                            <td>Keynote: Cybersecurity in the Age of AI</td>
-                            <td>Dr. David Kim (Stanford University)</td>
-                        </tr>
-                        <tr>
-                            <td>10:15 – 11:15</td>
-                            <td>Session: Quantum Computing – Beyond the Hype</td>
-                            <td>Prof. Elena Petrova (CERN)</td>
-                        </tr>
-                                               
-                        
+    <h3>Location</h3>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509712!2d144.95373631531668!3d-37.81520697975169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11d1cf%3A0x5045675218ceed30!2sTechCon%202024!5e0!3m2!1sen!2sau!4v1637176704629!5m2!1sen!2sau" 
+        allowfullscreen>
+    </iframe>
 
+    <h2>Contact Us</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
 
-                </table>
-            </div>
-        </main>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
 
-        <footer>
-            <p>
-                &copy; TechCon 2025 copyright.
-            </p>
-        </footer>
-    </body>
-    
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</main>
+<footer>
+    <p>&copy; 2024 TechCon. All rights reserved.</p>
+</footer>
+
+</body>
 </html>
